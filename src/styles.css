@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100vw;
+    background-color: #181733;
+    color: #ffff;
+}
+
+.header-img {
+    height: 5rem;
+    margin-left: 5rem;
+    cursor: pointer;
+}
+
+
+.header-mid {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+}
+
+.header-mid p a {
+    display: flex;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #ffff;
+    text-decoration: none;
+}
+
+
+.header-login {
+    height: 5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+    cursor: pointer;
+}
+
+.img-login {
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.login-p {
+    display: flex;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+
+/* //Main// */
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 100vw;
+    background-color: #7F1B3A;
+}
+
+.portero {
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portero img {
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.defense {
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.defense img {
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.mid {
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mid img {
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.front {
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.front img {
+    height: 10rem;
+    border-radius: 50%;
+}
+
+
+
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    height: 15vh;
+    width: 100vw;
+    background-color: #181733 ;
+    font-size: 1.5rem;
+    color: #ffff;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.iconos img {
+    height: 3rem;
+}
+
+footer p {
+    margin-left: 10rem;
+}
